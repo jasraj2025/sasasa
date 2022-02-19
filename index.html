@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>navbat</title>
+  </head>
+  <body class="bg-cyan-400">
+    <div class="flex p-5 bg-white shadow">
+      <img src="img_menu.svg" class="mr-4 lg:hidden sm:block" id="menu" />
+      <span class="text-2xl font-[gilroy]"> tailwind </span>
+      <ul class="lg:inline-flex lg:block sm:hidden">
+        <li class="text-2xl pl-11">Home</li>
+        <li class="text-2xl pl-11">about</li>
+        <li class="text-2xl pl-11">contact us</li>
+      </ul>
+    </div>
+    <div class="left">
+      <nav
+        class="bg-white w-40 h-[555px] absolute left-[-170px] ease-in duration-200 lg:hidden"
+        id="nav_menu"
+      >
+        <ul>
+          <li class="text-2xl ml-5 pt-10">Home</li>
+          <li class="text-2xl ml-5 pt-10">about</li>
+          <li class="text-2xl ml-5 pt-10">contact us</li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
